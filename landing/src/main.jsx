@@ -6,6 +6,9 @@ import {
 } from "react-router-dom";
 
 import App from './App.jsx'
+import { Calc } from './Calc.media.jsx';
+import { Contact } from './Contact.jsx';
+import { Tecnologies } from './Tecnologies.jsx';
 
 import './index.css'
 
@@ -14,6 +17,19 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
   },
+  {
+    path: "/calc",
+    element: <Calc />,
+  },
+  {
+    path: "/contc",
+    element: <Contact />,
+  },
+  {
+    path: "/technologies",
+    element: <Tecnologies />,
+  },
+    
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

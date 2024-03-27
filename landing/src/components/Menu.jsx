@@ -1,14 +1,27 @@
 import style from './Menu.module.css'
 
 export default function Menu (){
+
+
     return (
         <div className={style["wrap-menu"]}>
-            {/* Só um nome para mostrar oq é a barra */}
-            <h1>Menu</h1>
-            {/* Clique para ir para outra parte do site */}
+            <h1 className={style["text-title"]}>Menu</h1>            
             <p> 
-                <a href="/">Home</a> 
+                <a className={style["wrapEach"]} href="/">Home</a> 
             </p>
+            <p> 
+                <a className={style["wrapEach"]} href="/api">Api</a> 
+            </p>
+            <p> 
+                <a className={style["wrapEach"]} href="/calc">Média</a> 
+            </p>
+            <p> 
+                <a className={style["wrapEach"]} href="/contc">Contato</a> 
+            </p>
+            <p> 
+                <a className={style["wrapEach"]} href="/technologies">Tecnologia</a> 
+            </p>
+
         </div>
     )
 } 

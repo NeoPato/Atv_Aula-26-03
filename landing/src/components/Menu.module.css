@@ -1,12 +1,22 @@
 .wrap-menu{
-    background-color: var(--bg_third);
+    background-color: var(--bg_secondary);
     width: 80px;
-    height: 100%;
-    position:absolute;
-    box-shadow: var(--shadow);
-    display: block;
+    height: 100vh;
+    position:static;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display:flex;
     align-items:center;
-    flex-direction:column;
+    justify-content: center;
     flex-wrap: wrap;
-    font-size: 10px;
+    font-size: 13px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;}
+.wrapEach{
+
+    border-style: inset;
+    padding: 3px;   
+    margin: 3px;
+    border-radius: 5px;
+    background-color: var(--bg_secondary);
+    color: var(--bg_fourth);
 }
