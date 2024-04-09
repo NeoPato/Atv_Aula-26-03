@@ -9,6 +9,7 @@ import App from './App.jsx'
 import { Calc } from './Calc.media.jsx';
 import { Contact } from './Contact.jsx';
 import { Tecnologies } from './Tecnologies.jsx';
+import { Api } from './ApiRickAndMorty.jsx';
 
 import './index.css'
 
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: "/technologies",
     element: <Tecnologies />,
+  },
+  {
+    path: "/api",
+    element: <Api/>
   },
     
 ]);
